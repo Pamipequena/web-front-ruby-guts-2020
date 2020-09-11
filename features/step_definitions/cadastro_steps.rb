@@ -18,6 +18,10 @@ Dado('que acesso a pagina de login\/cadastro') do
     @app.cadastropage.preencher_form_com_dados_aleatorios
   end
 
+  Dado('preencho os campos do formulario com {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}') do |gender, first_name, last_name, password, day, month, year, newsletter, address, city, zipcode, state, phone, address_name|
+    @app.cadastropage.preencher_form_com_dados_de_exemplos(gender, first_name, last_name, password, day, month, year, newsletter, address, city, zipcode, state, phone, address_name)
+  end
+
   Então('devo ser direcionado à página de minha conta') do
     #expect (@app.minhacontapage.acessou_minha_conta).to be_truthy
     expect(@app.minhacontapage.page_title.text).to eq('MY ACCOUNT')
