@@ -14,12 +14,16 @@ Dado('que acesso a pagina de login\/cadastro') do
     @app.cadastropage.confirmar_cadastro
   end
   
-  Dado('preencho os campos do formulário com dados validos aleatórios') do
+  Dado('preencho os campos do formulário com dados validos aleatorios') do
     @app.cadastropage.preencher_form_com_dados_aleatorios
   end
 
   Dado('preencho os campos do formulario com {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}') do |gender, first_name, last_name, password, day, month, year, newsletter, address, city, zipcode, state, phone, address_name|
     @app.cadastropage.preencher_form_com_dados_de_exemplos(gender, first_name, last_name, password, day, month, year, newsletter, address, city, zipcode, state, phone, address_name)
+  end
+
+  Dado('preencho os campos do formulário com dados validos padrao') do
+    @app.cadastropage.preencher_form_com_dados_datafile
   end
 
   Então('devo ser direcionado à página de minha conta') do

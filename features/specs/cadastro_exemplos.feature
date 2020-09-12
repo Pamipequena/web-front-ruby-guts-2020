@@ -14,6 +14,6 @@ E preencho os campos do formulario com <gender>, <first_name>, <last_name>, <pas
 Quando confirmo o cadastro
 Então devo ser direcionado à página de minha conta 
 Exemplos:
-| email                        | gender | first_name | last_name |     password    | day  |    month    |   year   | newsletter |     address     |     city        |    zipcode    |     state       |       phone         | address_name    |
-|  'paula_ruby14@guts.com'     | 'fem'  |  'Paula'   |  'Silva'  |    '12345678'   | '20' |   'March'   |  '1980'  |   'no'     | 'Rua Lui, 80'   |   'Alvorada'    |    '00000'    |   'Indiana'     |   '5552987548251'   | 'apartamento'   |
-|  'joao_ruby14@guts.com'      | 'masc' |  'João'    |  'Santos' |    '89101212'   | '15' |   'April'   |  '1990'  |   'yes'    | 'Rua Alfeu, 50' |   'Viamão'      |    '00000'    |   'Georgia'     |   '5571589321589'   |  'casa'         |
+| email                          | gender | first_name | last_name |     password    | day  |    month    |   year   | newsletter |     address     |     city        |    zipcode    |     state       |       phone         | address_name    |
+|  'paula_rubyy119@guts.com'     | 'fem'  |  'Paula'   |  'Silva'  |    '12345678'   | '20' |   'March'   |  '1980'  |   'no'     | 'Rua Lui, 80'   |   'Alvorada'    |    '00000'    |   'Indiana'     |   '5552987548251'   | 'apartamento'   |
+|  'joao_rubyy178@guts.com'      | 'masc' |  'João'    |  'Santos' |    '89101212'   | '15' |   'April'   |  '1990'  |   'yes'    | 'Rua Alfeu, 50' |   'Viamão'      |    '00000'    |   'Georgia'     |   '5571589321589'   |  'casa'         |
